@@ -25,9 +25,9 @@
 }
 
 :root {
-  --bg-dark: #05030A;
-  --bg-light: #120A24;
-  --bg-mid: #0B0718;
+  --bg-dark: #450ccabe;
+  --bg-light: #19024b73;
+  --bg-mid: #12013898;
 
   --red-main: #6D28FF;
   --red-bright: #8B5CFF;
@@ -87,13 +87,13 @@ body::before {
 
 .main-title {
   font-family: 'MicrogrammaD', 'AmericanCaptain', 'ODIN', 'Montserrat', Arial, sans-serif;
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 900;
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
   letter-spacing: 12px;
   position: relative;
-  margin-top: 40px;
+  margin-top: 80px;
   opacity: 0;
   animation: titleSlideDown 0.8s ease-out 0.3s forwards;
   color: var(--white);
@@ -212,7 +212,7 @@ body::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(255,255,255,0.06), transparent 35%);
+  background: linear-gradient(180deg, rgba(79, 3, 255, 0.06), transparent 35%);
   pointer-events: none;
 }
 
@@ -221,7 +221,7 @@ body::before {
   height: 100px;
   border-radius: 12px;
   object-fit: contain;
-  background: rgba(18,10,36,.92);
+  background: rgba(23, 0, 75, 0.92);
   border: 1px solid rgba(255,255,255,0.18);
   padding: 8px;
   flex-shrink: 0;
