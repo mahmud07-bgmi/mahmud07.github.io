@@ -20,8 +20,8 @@
 
 :root {
     --bg-dark: #05030afb;
-  --bg-light: #120a24ab;
-  --bg-mid: #0b0618ce;
+  --bg-light: #361486dc;
+  --bg-mid: #2c0f74e1;
 
   --red-main: #6D28FF;
   --red-bright: #9e7df3;
@@ -30,7 +30,7 @@
   --white: #FFFFFF;
   --text-soft: #E5E5E5;
 
-  --panel-border: rgba(255,255,255,0.10);
+  --panel-border: rgb(89, 0, 255);
 }
 
 * {
@@ -148,7 +148,7 @@ body {
 /* Card Rank Badge */
 .card-rank {
   position: absolute;
-  top: -15px;
+  top: 0px;
   right: 20px;
   background: linear-gradient(180deg, var(--red-bright) 0%, var(--red-deep) 100%);
   border-radius: 8px;
